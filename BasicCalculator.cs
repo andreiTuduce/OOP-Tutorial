@@ -1,6 +1,6 @@
 ﻿namespace OOP_Tutorial
 {
-    public class BasicCalculator
+    public abstract class BasicCalculator
     {
 
         public virtual double Sum(double a, double b)
@@ -26,7 +26,7 @@
             if (b == 0)
                 return b / a;
 
-            return 0;
+            return a / b;
         }
 
         public string ToString(double a, double b)
